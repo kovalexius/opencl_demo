@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 
-project(ocl_tutorial1)
+project(ocl_demo)
 
 if(CMAKE_COMPILER_IS_GNUCXX)
     add_definitions( -Wall -Wl,--no-as-needed -pthread -lpthread -std=gnu++11 -DGL_GLEXT_PROTOTYPES )
